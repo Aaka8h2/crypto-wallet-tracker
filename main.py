@@ -6,10 +6,10 @@ import re
 from web3 import Web3
 
 # Update the following variables with your own Etherscan and BscScan API keys and Telegram bot token
-ETHERSCAN_API_KEY = '<Z85N9QBXZ4GFSZUX6ZT2NFUI25IPVK4B2D>'
+ETHERSCAN_API_KEY = '<RR6I7ANI11GBJ4EJTJSGHP92QT9Z9NQV5Z>'
 BSCSCAN_API_KEY = '<2PDIK55A1SSMT22C6UIJZV844VDHZ2IJ5W>'
-TELEGRAM_BOT_TOKEN = '<7906380021:AAFyk-wIuX7B_c7D_-M7To1dFcx4pW7Dx14>'
-TELEGRAM_CHAT_ID = '<-1002318960130>'
+TELEGRAM_BOT_TOKEN = '<7958846580:AAH-7D9rx3yWTZhUiRTZ8YYPrq4V9izNe5s>'
+TELEGRAM_CHAT_ID = '<-1002670003246>'
 
 # Define some helper functions
 def get_wallet_transactions(wallet_address, blockchain):
@@ -237,3 +237,4 @@ print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Telegram bot started.")
 
 print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Monitoring wallets...")
 monitor_wallets()
+
